@@ -3,17 +3,19 @@ import Contact from "../../components/Contact";
 const Home = () => {
   return (
     <>
-      <div className="bg-gray-400 pt-[30px] w-[100vw] h-[100vh] text-white">
+      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 pt-2 w-[100vw] h-[100vh] mx-auto container">
         <div className="flex items-center justify-center">
           <img
             src={logo}
             alt=""
-            className="w-[100px] border rounded-[100%] border-white "
+            className="w-[100px] border-[2px] rounded-[50%] border-white bg-white shadow-xl object-cover"
           />
         </div>
         <div className="flex items-center justify-center mt-[12px]">
-          <img src={logo} alt="" className="w-[40px] mx-[4px]" />
-          <span className="text-4xl font-medium">Lê Minh Trường</span>
+          <img src={logo} alt="" className="w-[40px] mx-[4px] " />
+          <span className="text-4xl font-medium text-white">
+            Lê Minh Trường
+          </span>
         </div>
         <Contact />
       </div>
