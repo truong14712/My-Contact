@@ -1,6 +1,14 @@
+import { useEffect } from "react";
 import avatar from "../../assets/234194465_1113523415839438_2401265830247144587_n.jpg";
 import Contact from "../../components/Contact";
 const Home = () => {
+  useEffect(() => {
+    console.log("%cStop!", "color: red; font-size: 50px; font-weight: bold;");
+    console.log(
+      "%cThis is a browser feature intended for developers.",
+      " font-size: 28px;"
+    );
+  }, []);
   return (
     <>
       <div
@@ -16,9 +24,9 @@ const Home = () => {
           />
         </div>
         <div className="flex items-center justify-center mt-[12px]">
-          <div className="text-2xl text-white">Hello 👋🏻,</div>
-          <span className="text-4xl font-medium text-white ml-1">
-            I&apos;m am Lê Minh Trường
+          <div className="text-2xl text-white sm:hidden">Hello 👋🏻,</div>
+          <span className="ml-1 text-4xl font-medium text-white sm:text-2xl">
+            I&apos;m Lê Minh Trường
           </span>
         </div>
         <Contact />
