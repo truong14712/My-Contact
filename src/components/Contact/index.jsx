@@ -23,7 +23,7 @@ const Contact = () => {
               href="https://www.facebook.com/mintru.03"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center w-[550px] sm:w-[450px] py-3 mt-2 text-lg bg-white rounded-lg  hover:transition-all hover:delay-100 shadow-xl hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100 "
+              className="flex items-center w-[550px] sm:w-[340px] py-3 mt-2 text-lg bg-white rounded-lg  hover:transition-all hover:delay-100 shadow-xl hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100 max-w-[550px]"
             >
               <i className="mx-5 fa-brands fa-facebook"></i>
               Facebook
@@ -34,7 +34,7 @@ const Contact = () => {
               href="mailto:letruong147123@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center w-[550px] sm:w-[450px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
+              className="flex items-center w-[550px] sm:w-[340px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
               hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100 
               "
             >
@@ -47,11 +47,11 @@ const Contact = () => {
               href="https://www.linkedin.com/in/mintrudev/"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center w-[550px] sm:w-[450px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
+              className="flex items-center w-[550px] sm:w-[340px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
               hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100
               "
             >
-              <i className="fa-brands fa-linkedin-in mx-5"></i>
+              <i className="mx-5 fa-brands fa-linkedin-in"></i>
               Linkedin
             </a>
           </li>
@@ -60,7 +60,7 @@ const Contact = () => {
               href="https://github.com/truong14712"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center w-[550px] sm:w-[450px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
+              className="flex items-center w-[550px] sm:w-[340px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
               hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100
               "
             >
@@ -73,7 +73,7 @@ const Contact = () => {
               href="https://www.instagram.com/mintru_03"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center w-[550px] sm:w-[450px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
+              className="flex items-center w-[550px] sm:w-[340px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
               hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100
               "
             >
@@ -83,12 +83,12 @@ const Contact = () => {
           </li>
           <li className="">
             <a
-              className="flex items-center w-[550px] sm:w-[450px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl cursor-pointer
+              className="flex items-center w-[550px] sm:w-[340px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl cursor-pointer
               hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100
               "
               onClick={() => handleDiscord()}
             >
-              <i className="fa-brands fa-discord mx-4"></i>
+              <i className="mx-4 fa-brands fa-discord"></i>
               <span>truong14712</span>
             </a>
           </li>
@@ -98,7 +98,7 @@ const Contact = () => {
               href="https://www.tiktok.com/@mintru_03"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center w-[550px] sm:w-[450px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
+              className="flex items-center w-[550px] sm:w-[340px]  py-3 mt-4 text-lg bg-white rounded-lg hover:transition shadow-xl
               hover:bg-gradient-to-r hover:from-violet-100 hover:to-fuchsia-100
               "
             >
